@@ -1,0 +1,46 @@
+@import '../../styles/theme';
+
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: $footer_color;
+
+    padding: 20px 40px;
+}
+
+.footer__upper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+    .footer__upper__talk_online__footer_title {
+        font-size: 1.3em;
+        font-weight: 900;
+        font-family: $titles_font;
+    }
+
+    .footer__upper__talk_online__icons {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+}
+
+.footer__lower {
+    margin-top: 20px;
+
+    .footer__lower_logo {
+        font-size: 1.6em;
+        font-family: $logo_font;
+        text-align: center;
+    }
+
+    .footer__lower_copyright {
+        font-size: .8em;
+        font-style: italic;
+        text-align: center;
+    }
+}
