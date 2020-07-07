@@ -1,12 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,700&family=Merriweather:ital,wght@0,400;0,700;0,900;1,700;1,900&family=Rancho&display=swap');
+
 
 // set app colors
-$primary_color: #fff;
-$secondary_color: #000;
+$primary_color: #2C003E;
+$primary_color_alt: #582B42;
+$secondary_color: #FE346E;
+
+$badge_color: #512B58;
+$footer_color: lighten(#FE346E, 28);
+$meal_details_background_color: lighten(#FE346E, 8);
+
+$search_input_background_color: #E5E5E5;
+$search_input_mobile_background_color: lighten(#E5E5E5, 20);
+
 $white: #fff;
 $black: #000;
+$gray: gray;
 
 
 // set fonts
 $logo_font: 'Rancho';
 $titles_font: 'Merriweather';
-$text_font: 'Raleway';
+$text_font: 'Lato';
+$common_font: 'Lato';
