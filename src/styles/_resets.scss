@@ -2,8 +2,16 @@
 
 // remove all default margins and padding 
 // set box sizing to border box 
-* {
+*, *:before, *:after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+input, button {
+  outline: none;
+}
+
+button {
+  cursor: pointer;
 }
