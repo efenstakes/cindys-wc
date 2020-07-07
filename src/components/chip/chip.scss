@@ -1,0 +1,22 @@
+@import '../../styles/theme';
+@import '../../styles/base';
+
+
+.chip_selected {
+    background-color: $primary_color_alt;
+    color: $white;
+}
+
+.chip_unselected {
+    background-color: $white;
+    color: $primary_color_alt;
+}
+
+.chip {
+  border-radius: 20px;
+  border: 1px solid $primary_color_alt;
+  padding: 8px 24px;
+  margin-left: 20px;
+  margin-bottom: 16px;
+  cursor: pointer;
+}
