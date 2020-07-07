@@ -1,0 +1,42 @@
+
+
+
+.movein {
+    animation-name: move_in;
+    animation-duration: 600ms;
+}
+
+.slidein {
+    animation-name: move_in;
+    animation-duration: 600ms;
+}
+
+.slideup {
+    animation-name: move_up;
+    animation-duration: 600ms;
+}
+
+.spreadout {
+    animation-name: spread_out;
+    animation-duration: 600ms;
+}
+
+@keyframes spread_out {
+    from {
+        transform: scaleX(0.4);
+    }
+    to {
+        transform: scaleX(1);
+    }
+}
+@keyframes move_in {
+    from {
+        transform: translateY(-20px);
+    }
+}
+
+@keyframes move_up {
+    from {
+        transform: translateY(20px);
+    }
+}
