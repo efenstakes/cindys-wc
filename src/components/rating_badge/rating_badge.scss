@@ -1,0 +1,29 @@
+@import '../../styles/theme';
+
+
+.rating_badge {
+    padding: 4px 12px;
+    border-radius: 20px;
+    background-color: $secondary_color;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    position: absolute;
+    top: 15vw;
+    left: 40%;
+    z-index: 3;
+
+
+    .rating_badge__icon {
+        font-size: 1em;
+        margin-right: 4px;
+    }
+
+    .rating_badge__rating {
+        font-size: .9em;
+    }
+
+}
