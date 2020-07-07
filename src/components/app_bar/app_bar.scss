@@ -1,0 +1,51 @@
+@import '../../styles/theme';
+@import '../../styles/base';
+
+
+
+.appbar {
+    width: 100vw;
+    padding: 16px 40px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    position: fixed;
+    top: 0;
+    z-index: 3;
+
+    background-color: $white;
+
+    transition: 400ms;
+
+    .appbar__logo {
+        text-decoration: none;
+        color: $primary_color;
+        font-size: 1.8em;
+        font-family: $logo_font;
+        letter-spacing: 1.6px;
+    }
+
+    .appbar__search_input {
+        padding: 8px 20px;
+        background-color: $search_input_background_color;
+        border: none;
+        border-radius: 20px;
+        width: 30vw;
+        height: 36px;
+    }
+
+    .appbar__icon {
+        color: $primary_color;
+        font-size: 2em;
+        transition: 400ms;
+        
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+
+}
+
